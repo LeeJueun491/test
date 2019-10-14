@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    tools:context=".ewha_home"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+        <android.support.v7.widget.Toolbar
+
+            android:id="@+id/toolbar_home"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <Button
+
+            android:id="@+id/home_button_star"
+
+            android:layout_width="50dp"
+
+            android:layout_height="44dp"
+
+            android:text="★"
+
+            tools:layout_editor_absoluteX="38dp"
+
+            tools:layout_editor_absoluteY="655dp" />
+
+
+
+        <Button
+
+            android:id="@+id/home_button_bus"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="셔틀버스"
+
+            tools:layout_editor_absoluteX="202dp"
+
+            tools:layout_editor_absoluteY="654dp" />
+
+
+
+        <Button
+
+            android:id="@+id/home_button_search_road"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="길 찾기"
+
+            tools:layout_editor_absoluteX="306dp"
+
+            tools:layout_editor_absoluteY="653dp" />
+
+
+
+        <TextView
+
+            android:id="@+id/textView2"
+
+            android:layout_width="338dp"
+
+            android:layout_height="49dp"
+
+            android:text="이화감자 (나중에 액션바로 수정 + 검색버튼 추가)"
+
+            android:textSize="20sp"
+
+            tools:layout_editor_absoluteX="16dp"
+
+            tools:layout_editor_absoluteY="16dp" />
+
+
+
+        <Button
+
+            android:id="@+id/home_button_ecc"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="ECC"
+
+            tools:layout_editor_absoluteX="202dp"
+
+            tools:layout_editor_absoluteY="352dp" />
+
+
+
+        <Button
+
+            android:id="@+id/home_button_posco"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="포스코관"
+
+            tools:layout_editor_absoluteX="91dp"
+
+            tools:layout_editor_absoluteY="202dp" />
+
+
+
+        <Button
+
+            android:id="@+id/home_button_science"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="종합과학관"
+
+            tools:layout_editor_absoluteX="91dp"
+
+            tools:layout_editor_absoluteY="145dp" />
+
+
+
+        <SearchView
+
+            android:layout_width="38dp"
+
+            android:layout_height="34dp"
+
+            tools:layout_editor_absoluteX="360dp"
+
+            tools:layout_editor_absoluteY="25dp" />
+
+</LinearLayout>
